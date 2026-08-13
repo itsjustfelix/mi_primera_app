@@ -1,0 +1,37 @@
+[
+  {
+    "id": "ped-001",
+    "cliente": "Laura Martinez",
+    "platos": ["Pizza margarita", "Jugo de mora"],
+    "direccion": { "calle": "Calle 16 #4-32", "barrio": "Centro" },
+    "creadoEn": "2026-08-13T14:00:00Z",
+    "estado": {
+      "tipo": "en_camino",
+      "repartidor": "Carlos Diaz",
+      "placaVehiculo": "ABC-123"
+    },
+    "notas": "Sin cebolla en la pizza."
+  },
+  {
+    "id": "ped-002",
+    "cliente": "Andres Gomez",
+    "platos": ["Hamburguesa doble"],
+    "direccion": { "calle": "Carrera 9 #12-05", "barrio": "Villa Corelca" },
+    "creadoEn": "2026-08-13T15:30:00Z",
+    "estado": { "tipo": "recibido", "horaRecibido": "2026-08-13T15:30:00Z" }
+  },
+  {
+    "id": "ped-003",
+    "cliente": "Sofia Ramirez",
+    "platos": ["Sushi variado", "Gaseosa"],
+    "direccion": {
+      "calle": "Avenida Simon Bolivar #20-10",
+      "barrio": "Los Fundadores"
+    },
+    "creadoEn": "2026-08-13T12:15:00Z",
+    "estado": {
+      "tipo": "cancelado",
+      "motivo": "El local cerró antes de tiempo."
+    }
+  }
+]

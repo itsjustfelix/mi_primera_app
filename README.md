@@ -1,17 +1,22 @@
-# mi_primera_app
+## ComiditApp (no es proyecto de aula)
 
-A new Flutter project.
+    que problema resuelve en dos frases
 
-## Getting Started
+    Los clientes piden comida y el restaurante no sabe el estado de los pedidos
 
-This project is a starting point for a Flutter application.
+## El dominio
 
-A few resources to get you started if this is your first Flutter project:
+    Entidad -> Pedidos. idenficador principal el id
+    Objeto valor -> Direccion
+    Estados -> Recibida , Preparando , EnCamino , Entregado , Cancelado.
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Decision: con freezed.Basicamente porque es una herramienta que te ayuda a escribir menos codigo, lo que
+tambien significa que "pierdes" menos tiempo en hacer algo manualmente. Ademas que
+deja los archivos mas limpios y mas facil de leer.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Cómo correrlo
+
+    flutter pub get
+    dart run build_runner build --delete-conflicting-outputs
+    flutter test
+    flutter run
